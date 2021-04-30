@@ -1,0 +1,357 @@
+
+@media screen and (max-width: 700px) {
+    .add img {
+        width: 100%;
+    }
+    
+
+    .nb1 {
+        border-bottom: 1px solid black;
+        border-right: none  !important;
+    }
+
+    .nb2 {
+        border-bottom: 1px solid black;
+        border-right: none !important;
+    }
+
+    .nb3 {
+         border-bottom: 1px solid black;
+    }
+
+    .ab2 {
+         border-bottom: 1px solid black;
+         border-right: 1px solid red;
+    }
+
+    .ab3 {
+         border-bottom: 1px solid black;
+         border-right: 1px solid red;
+    }
+    .ab1 {
+         border-bottom: 1px solid black;
+    }
+
+    .nb1 {
+        border-right: none;
+    }
+    
+    .nb2 {
+        border-right: none;
+    }
+    
+    .ab3 {
+        border-right: none !important;
+    }
+    .ab2 {
+        border-right: none !important;
+    }
+
+    
+
+  }
+  
+
+
+  .nb1 {
+    border-right: 1px solid black;
+}
+
+.nb2 {
+    border-right: 1px solid black;
+}
+
+.ab3 {
+    border-right: 1px solid black;
+}
+.ab2 {
+    border-right: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyp1 {
+    width: 80%;
+}
+
+.bodyp2 {
+    width: 80%;
+}
+
+
+.nav-link.active {
+    background-color: blue;
+}
+
+
+
+.containe:hover {
+    box-shadow: 10px 10px 20px rgba(5, 114, 23, 0.664);
+    border: 1px solid black;
+    background-color: antiquewhite; 
+}
+.overlay:hover {
+    background-color: antiquewhite;   
+}
+.containe {
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+#modlcon {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: black;
+    top: 60px;
+}
+
+
+
+
+
+#toplogo {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #toplogo {
+
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    #logowrite {
+        display: none;
+    }
+
+    #modlcon {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        color: black;
+        top: 60px;
+    }
+
+    #moblog {
+        display: block !important;
+      }
+
+
+      #logsign {
+        display: none;
+      }
+
+
+
+      #slddtl {
+        display: none;
+      }
+
+      #sldhed {
+        font-size: 15px !important;
+      }
+      
+    
+
+    
+  }
+
+
+
+
+
+
+/*******Sing up *****/
+
+
+.based {
+    margin: 1rem;
+  }
+  .based a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .form {
+    max-width: 860px;
+    margin: 6rem auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.2rem;
+    position: relative;
+  }
+  
+  .form_content {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group2 {
+    color: #333;
+    opacity: 0;
+  }
+  
+  .form-group_title {
+    color: #E57B5C;
+    text-transform: uppercase;
+  }
+  
+  .form-group_input {
+    width: 100%;
+    border-width: 0 0 2px 0;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form_background {
+    border-radius: 0.2rem;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+    width: 50%;
+    height: 120%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transition: all 0.3s cubic-bezier(0.04, 0.57, 0.15, 1.46);
+  }
+  
+  .fieldset {
+    flex: 1;
+    margin: 0;
+    border: 0;
+    padding: 0 5rem 0 0;
+  }
+  .fieldset:first-child {
+    padding-left: 0;
+  }
+  .fieldset:last-child {
+    padding-left: 5rem;
+    padding-right: 0;
+  }
+  
+  .radio--invisible {
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  
+  .button {
+    text-transform: uppercase;
+    padding: 0.6rem 3rem;
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .button--form {
+    background: #E57B5C;
+    color: #fff;
+    float: right;
+    margin-top: 0;
+  }
+  .button--form:hover {
+    background: #ec9f88;
+  }
+  
+  #noaccount:checked ~ .form_background {
+    transform: translate(3rem, -50%);
+  }
+  #noaccount:checked ~ .form_background .form-group--account {
+    display: none;
+  }
+  #noaccount:checked ~ .form_background .form-group--noaccount {
+    display: block;
+    opacity: 0;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  
+  #account:checked ~ .form_background {
+    transform: translate(calc(100% - 3rem), -50%);
+  }
+  #account:checked ~ .form_background .form-group--noaccount {
+    display: none;
+  }
+  #account:checked ~ .form_background .form-group--account {
+    display: block;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    -webkit-animation-name: slidein;
+            animation-name: slidein;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /*******Sing up *****/
+
+  #moblog {
+    display: none;
+  }
