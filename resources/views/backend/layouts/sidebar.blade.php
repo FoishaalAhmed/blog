@@ -149,7 +149,7 @@
 					<a href="{{ route('admin.contacts') }}" class="nav-link @if (request()->is('admin/contacts')) {{ 'active' }} @endif">
 						<i class="nav-icon far fa-address-card"></i>
 						<p>
-							Gallery
+							Contact
 						</p>
 					</a>
 				</li>

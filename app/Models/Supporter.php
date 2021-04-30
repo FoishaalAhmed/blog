@@ -11,7 +11,7 @@ class Supporter extends Model
         'first_name', 'last_name', 'nationality', 'email', 'phone', 'amount', 'currency', 
     ];
 
-    public function store_support($request)
+    public function storeSupport($request)
     {
         $this->first_name  = $request->first_name ;
         $this->last_name   = $request->last_name ;

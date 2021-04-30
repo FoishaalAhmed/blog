@@ -26,6 +26,9 @@ Route::group(['namespace' => 'Frontend'], function () {
     Route::post('/send-query', 'ContactController@query')->name('send.query');
     Route::get('/support', 'SupporterController@index')->name('support');
     Route::post('/send-support', 'SupporterController@support')->name('send.support');
+    Route::get('/photos', 'GalleryController@photo')->name('photos');
+    Route::get('/videos', 'GalleryController@video')->name('videos');
+    Route::get('/ebooks', 'GalleryController@ebook')->name('ebooks');
 
 });
 
